@@ -145,7 +145,7 @@ HOME_TEMPLATE = """
 </head>
 <body>
     <div class="container">
-        <h1 class="logo">ayoung<span>.</span>test</h1>
+        <h1 class="logo">Hello<span>.</span>World</h1>
         <p class="tagline">Flask application up and running</p>
         <div class="status">
             <div class="status-dot"></div>
@@ -185,4 +185,3 @@ def info():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
-
